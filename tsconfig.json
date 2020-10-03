@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+
     "target": "esnext",
     "module": "esnext",
     "strict": true,
@@ -15,7 +16,8 @@
     "types": [
       "webpack-env",
       "mocha",
-      "chai"
+      "chai",
+      "vuetify"
     ],
     "paths": {
       "@/*": [
