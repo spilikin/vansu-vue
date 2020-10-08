@@ -1,10 +1,10 @@
 <template>
   <div class="home">
-    <v-alert :value='apiVersion != ""' dense dismissible type="success">
+    <v-alert class="ma-5" :value='apiVersion != ""' dense dismissible type="success">
       API Version is: {{apiVersion}}
     </v-alert>
 
-    <v-alert type="error" :value='error != ""' dense dismissible>
+    <v-alert class="ma-5" type="error" :value='error != ""' dense dismissible>
       {{error}}
     </v-alert>
   </div>

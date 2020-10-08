@@ -5,7 +5,7 @@ module.exports = {
   devServer: {
     proxy: {
         '^/api': {
-          target: 'https://vansu.spilikin.dev',
+          target: 'https://api.globex.spilikin.dev',
           changeOrigin: true
         },
     }      
